@@ -1,0 +1,158 @@
+.body {
+  margin: 0;
+}
+
+.main-nav {
+  height: 50px;
+  background-color: transparent;
+  padding-right: 15px;
+}
+
+.logo {
+  height: 100%;
+}
+
+.nav-list {
+  float: right;
+  list-style: none;
+  color: green;
+  margin-top: 25px;
+ }
+
+.nav-item {
+  float: left;
+  margin-left: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: green;
+}
+
+/*** End Nav Styles ***/
+
+/*** Start Hero Styles ***/
+.hero {
+    height: 550px;
+    background: url("../img/dragon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+.hero-text {
+    margin-top: 0;
+    padding-top: 250px; 
+    text-align: center;
+    color: #ffffff;
+   
+}
+
+.text-background {
+   background-color: rgba(0, 0, 0, .5);
+}
+
+/*** End Hero Styles ***/
+.column-container {
+    padding: 25px;
+}
+
+/*** Start Column Styles ***/
+.column-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.column {
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.column-image {
+    width: 100%;
+    height: 300px;
+}
+
+/*** End Column Styles ***/
+
+/*** Start Link Styles ***/
+.link-column {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 25px 0px;
+}
+/*** End Link Styles ***/
+
+/*** Start Footer Styles ***/
+footer {
+  border: 1px solid #000000;
+    background-color: red;
+}
+
+footer:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.footer-section {
+  width:33.33%;
+  text-align: center;
+  float: left;
+
+}
+
+.diamond-container {
+  height: 150px;
+  width: 150px;
+  margin: 15px auto 0px;
+}
+
+.social-media {
+  height: 50px;
+  width: 50px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-left {
+  clear:left;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.facebook .fa {
+  color: blue;
+  font-size: 24px;
+}
+
+.apple .fa {
+  color: silver;
+  font-size: 24px;
+}
+
+.twitter .fa {
+  color: #0DBFFF;
+  font-size: 24px;
+}
+
+.android .fa {
+  color: green;
+  font-size: 24px;
+}
+
+/*** End Footer Styles ***/
+}

@@ -1,0 +1,22 @@
+/*** Start About Section ***/
+.about-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about-section {
+    width: 45%;
+    float: left;
+    padding: 2.5%;
+}    
+.selfie {
+    width: 100%
+}
+
+.bio-title {
+    text-align: center;
+}
+    
+/*** End About Section***/
+
