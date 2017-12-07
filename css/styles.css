@@ -91,7 +91,7 @@
 /*** Start Footer Styles ***/
 footer {
   border: 1px solid #000000;
-    background-color: red;
+    background-color: orange;
 }
 
 footer:after {
@@ -140,7 +140,7 @@ footer:after {
 }
 
 .apple .fa {
-  color: silver;
+  color: white;
   font-size: 24px;
 }
 
@@ -154,5 +154,9 @@ footer:after {
   font-size: 24px;
 }
 
-/*** End Footer Styles ***/
+footer {
+  font-family: 'Amatic SC', cursive;
 }
+
+
+/*** End Footer Styles ***/
